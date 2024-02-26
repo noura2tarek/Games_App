@@ -1,6 +1,8 @@
-# games_app
+# simple_games_app
 
-A new Flutter project.
+Games app uses fake games api to show some games photos and description.
+Business logic using stateful widget only.
+check http package before use the application. 
 
 ## Getting Started
 
