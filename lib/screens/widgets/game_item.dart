@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../models/game_model.dart';
 
 class GameItem extends StatelessWidget {

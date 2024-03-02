@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:games_app/screens/widgets/game_item.dart';
 import 'package:games_app/services/game_services.dart';
-
 import '../models/game_model.dart';
 
 class GamesScreen extends StatefulWidget {
