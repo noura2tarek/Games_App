@@ -22,9 +22,12 @@ class GameItem extends StatelessWidget {
           // from cached network image package
           CachedNetworkImage(
             imageUrl: gameModel.image,
+            height: 182.0,
+            width: double.infinity,
+            fit: BoxFit.cover,
             placeholder: (context, url) {
               return Container(
-                height: 179.0,
+                height: 182.0,
                 width: double.infinity,
                 color: Colors.grey[500],
               );
