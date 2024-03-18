@@ -51,10 +51,10 @@ class _GamesScreenState extends State<GamesScreen> {
                 itemCount: snapshot.data!.length,
               ),
             );
+          } else if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
           } else {
-            return const Center(
-              child: CircularProgressIndicator(),
-            );
+            return Text('Error: ${snapshot.error}');
           }
         },
       ),
